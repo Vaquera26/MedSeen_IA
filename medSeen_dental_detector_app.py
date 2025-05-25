@@ -1181,7 +1181,7 @@ def mostrar_equipo_desarrollo():
             ]
         },
         {
-            "nombre": "Diego Muñez Rede",
+            "nombre": "Diego Muñoz Rede",
             "control": "21130893",
             "rol": "Especialista en Datos & Testing",
             "especialidad": "Roboflow, Preparación de Datos, Quality Assurance",
