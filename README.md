@@ -58,10 +58,10 @@ Facilitar la identificación rápida y precisa de instrumentos dentales en consu
 
 ```bash
 # 1️⃣ Clonar el repositorio
-git clone https://github.com/tu-usuario/medSeen.git
+git clone https://github.com/Vaquera26/MedSeen_IA
 cd medSeen
 
-# 2️⃣ Crear entorno virtual (recomendado)
+# 2️⃣ Crear entorno virtual 
 python -m venv medSeen_env
 
 # 3️⃣ Activar entorno
