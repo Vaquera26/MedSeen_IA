@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['botador', 'elevador', 'forceps', 'gubia', 'separador']
+
+roboflow:
+  workspace: ia-dental-workspasce
+  project: instrumentos_dentales
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ia-dental-workspasce/instrumentos_dentales/dataset/3
