@@ -257,133 +257,6 @@ medSeen/
    • Incluye todas las estadísticas y gráficas
    ```
 
-### 📋 **Instrumentos Detectables**
-
-El modelo está entrenado para reconocer los siguientes instrumentos dentales:
-
-- 🦷 **Fórceps** - Extracción dental
-- 🔧 **Exploradores** - Examen dental  
-- ✂️ **Tijeras** - Corte de materiales
-- 🪝 **Curetas** - Limpieza periodontal
-- 📏 **Sondas** - Medición y exploración
-- *Y más instrumentos según el dataset de entrenamiento*
-
----
-
-## 📊 Métricas del Modelo
-
-<div align="center">
-
-| Métrica | Valor | Descripción |
-|:---:|:---:|:---|
-| **mAP@0.5** | 85.2% | Precisión media con IoU ≥ 0.5 |
-| **mAP@0.5:0.95** | 73.8% | Precisión media en rango IoU |
-| **Precisión** | 87.4% | Detecciones correctas / Total detecciones |
-| **Recall** | 82.1% | Objetos detectados / Total objetos |
-| **F1-Score** | 84.6% | Media armónica Precisión-Recall |
-| **Velocidad** | 45 FPS | Frames por segundo (GPU RTX 3050) |
-
-</div>
-
-### 📈 **Rendimiento por Clase**
-
-```
-Fórceps     - Precisión: 89.3% | Recall: 85.7%
-Exploradores - Precisión: 86.1% | Recall: 83.2%  
-Tijeras     - Precisión: 88.7% | Recall: 80.4%
-Curetas     - Precisión: 84.2% | Recall: 78.9%
-```
-
----
-
-## 🛠️ Configuración Avanzada
-
-### ⚙️ **Parámetros del Modelo**
-
-```python
-# Configuración en medSeen_dental_detector_app.py
-confidence = 0.5        # Umbral de confianza mínimo
-umbral_tiempo = 3       # Frames consecutivos para confirmar
-img_size = 640         # Tamaño de imagen para YOLO
-fps = 30              # Frames por segundo de la cámara
-buffer_size = 1       # Buffer mínimo para menor latencia
-```
-
-### 🎨 **Personalización de Colores**
-
-```python
-# Paleta corporativa MedSeen
-COLORS = {
-    'primary': "#FFFFFF",      # Azul marino principal
-    'secondary': '#4FC3D7',    # Azul cyan secundario  
-    'accent': '#1A4A6B',       # Azul oscuro
-    'light': '#E8F4F8',        # Azul claro
-    'success': '#27AE60',      # Verde éxito
-    'warning': '#F39C12',      # Naranja advertencia
-    'error': '#E74C3C'         # Rojo error
-}
-```
-
-### 📊 **Configuración de Gráficas**
-
-```python
-# Personalizar visualizaciones
-fig.update_layout(
-    plot_bgcolor='white',           # Fondo blanco
-    paper_bgcolor='white',          # Papel blanco
-    font={'color': COLORS['text']}, # Color texto corporativo
-    height=350,                     # Altura estándar
-    margin=dict(l=40, r=40, t=60, b=40)  # Márgenes optimizados
-)
-```
-
----
-
-## 🔧 Solución de Problemas
-
-### ❗ **Problemas Comunes**
-
-#### **🎥 Cámara no detectada**
-```bash
-# Verificar cámaras disponibles
-python -c "import cv2; print('Cámaras:', [cv2.VideoCapture(i).isOpened() for i in range(5)])"
-
-# Solución: Cambiar índice de cámara en el código
-self.cap = cv2.VideoCapture(1)  # Probar con 1, 2, 3...
-```
-
-#### **🧠 Modelo no encontrado**
-```bash
-# Verificar ruta del modelo
-ls -la runs/detect/instrumentos_dentales_yolo_model5/weights/best.pt
-
-# Solución: Ajustar ruta en el código
-model_path = "ruta/correcta/al/modelo/best.pt"
-```
-
-#### **📦 Dependencias faltantes**
-```bash
-# Reinstalar dependencias específicas
-pip install ultralytics --upgrade
-pip install opencv-python --upgrade
-pip install streamlit --upgrade
-```
-
-#### **🐌 Rendimiento lento**
-```bash
-# Verificar GPU disponible
-python -c "import torch; print('CUDA disponible:', torch.cuda.is_available())"
-
-# Reducir resolución en el código
-self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)   # Menor resolución
-self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)  # Mayor velocidad
-```
-
-### 🆘 **Obtener Ayuda**
-
-- **📧 Email**: [soporte@medSeen.com](mailto:soporte@medSeen.com)
-- **💬 Issues**: [GitHub Issues](https://github.com/tu-usuario/medSeen/issues)
-- **📚 Documentación**: [Wiki del Proyecto](https://github.com/tu-usuario/medSeen/wiki)
 
 ---
 
@@ -401,54 +274,17 @@ self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)  # Mayor velocidad
 <img src="https://github.com/identicons/jfvaquera.png" width="100px;" alt="Juan Fernando"/><br />
 <sub><b>👨‍💻 Juan Fernando Vaquera Sanchez</b></sub><br />
 <sub>🎓 <strong>21130869</strong></sub><br />
-<sub>🚀 <em>Líder de Proyecto & Desarrollador IA</em></sub><br />
-<br />
-🧠 <strong>Especialidades:</strong><br />
-• Machine Learning & YOLO<br />
-• Computer Vision<br />
-• Arquitectura de sistemas<br />
-<br />
-⭐ <strong>Contribuciones:</strong><br />
-• 🎯 Arquitectura del modelo YOLO<br />
-• 📊 Sistema de detección en tiempo real<br />
-• 🔧 Optimización de hiperparámetros<br />
-• 📈 Desarrollo de métricas y análisis<br />
 </td>
 
 <td align="center" width="33%">
 <img src="https://github.com/identicons/miriam.png" width="100px;" alt="Miriam"/><br />
 <sub><b>👩‍💻 Miriam Alicia Sanchez Cervantes</b></sub><br />
-<sub>🎓 <strong>21130882</strong></sub><br />
-<sub>🎨 <em>Desarrolladora Frontend & UX/UI</em></sub><br />
-<br />
-🎨 <strong>Especialidades:</strong><br />
-• Streamlit & Web Development<br />
-• Diseño de Interfaces<br />
-• Experiencia de Usuario<br />
-<br />
-⭐ <strong>Contribuciones:</strong><br />
-• 🖥️ Diseño de interfaz de usuario<br />
-• 📱 Desarrollo de aplicación web<br />
-• 📊 Gráficas interactivas con Plotly<br />
-• 🎭 Diseño visual y paleta corporativa<br />
 </td>
 
 <td align="center" width="33%">
 <img src="https://github.com/identicons/diego.png" width="100px;" alt="Diego"/><br />
 <sub><b>👨‍🔬 Diego Muñoz Rede</b></sub><br />
 <sub>🎓 <strong>21130893</strong></sub><br />
-<sub>📊 <em>Especialista en Datos & Testing</em></sub><br />
-<br />
-📊 <strong>Especialidades:</strong><br />
-• Roboflow & Data Management<br />
-• Preparación de Datasets<br />
-• Quality Assurance<br />
-<br />
-⭐ <strong>Contribuciones:</strong><br />
-• 📸 Recolección y curación de datos<br />
-• 🏷️ Anotación de imágenes en Roboflow<br />
-• 🧪 Testing y validación del modelo<br />
-• 📋 Documentación y reportes PDF<br />
 </td>
 </tr>
 </table>
@@ -459,10 +295,9 @@ self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)  # Mayor velocidad
 
 <div align="center">
 
-**🏫 Universidad/Institución**: *[Nombre de tu Universidad]*  
-**📚 Materia**: *Inteligencia Artificial / Computer Vision*  
-**👨‍🏫 Profesor**: *[Nombre del Profesor]*  
-**📅 Semestre**: *[Semestre/Año]*  
+**🏫 Universidad/Institución**: *INSTITUTO TECNOLOGICO DE LA LAGUNA*  
+**📚 Materia**: *Inteligencia Artificial*  
+**📅 Semestre**: *Noveno Semestre*  
 
 ### 🏆 **Logros del Proyecto**
 
@@ -477,56 +312,6 @@ self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 360)  # Mayor velocidad
 
 ---
 
-## 📜 Licencia
-
-```
-MIT License
-
-Copyright (c) 2025 MedSeen Team
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 🚀 ¿Qué sigue?
-
-### 🔮 **Roadmap Futuro**
-
-- **📱 App móvil** - Versión para iOS y Android
-- **🌐 Web deployment** - Hosting en la nube
-- **🤖 Más instrumentos** - Expandir dataset y clases
-- **📊 Analytics avanzados** - Machine Learning para patrones
-- **🔊 Alertas por voz** - Retroalimentación auditiva
-- **💾 Base de datos** - Almacenamiento de sesiones
-
-### 🤝 **Contribuir**
-
-¿Quieres contribuir a MedSeen? ¡Genial!
-
-1. **🍴 Fork** el repositorio  
-2. **🌿 Crea** una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. **💾 Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. **🚀 Push** a la rama (`git push origin feature/AmazingFeature`)
-5. **📝 Abre** un Pull Request
-
----
 
 <div align="center">
 
@@ -538,15 +323,6 @@ SOFTWARE.
 
 ---
 
-### 📊 **Estadísticas del Proyecto**
-
-![GitHub stars](https://img.shields.io/github/stars/tu-usuario/medSeen?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tu-usuario/medSeen?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/tu-usuario/medSeen?style=social)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/tu-usuario/medSeen)
-![GitHub repo size](https://img.shields.io/github/repo-size/tu-usuario/medSeen)
-![Lines of code](https://img.shields.io/tokei/lines/github/tu-usuario/medSeen)
 
 **🚀 Hecho con amor, café y mucha IA 🤖**
 
