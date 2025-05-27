@@ -1,36 +1,27 @@
 # 🦷 MedSeen - Sistema de Detección de Instrumentos Dentales
 
 <div align="center">
-  
-![MedSeen Logo](img/logo.png)
 
-**🚀 Inteligencia Artificial • 📹 Detección en Tiempo Real • 📊 Análisis Avanzado**
+![MedSeen Banner](https://user-images.githubusercontent.com/placeholder/medseen-banner.gif)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://python.org)
-[![YOLO](https://img.shields.io/badge/YOLO-v8-darkgreen?style=for-the-badge&logo=yolo)](https://ultralytics.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red?style=for-the-badge&logo=streamlit)](https://streamlit.io)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-green?style=for-the-badge&logo=opencv)](https://opencv.org)
+<img src="img/logo.png" alt="MedSeen Logo" width="200" height="200"/>
 
-*Sistema de detección de instrumentos dentales en tiempo real utilizando YOLOv8 y Computer Vision*
+### 🤖 **Inteligencia Artificial** • 🎥 **Detección en Tiempo Real** • 📊 **Análisis Avanzado**
 
-[🎯 Demo](#-demo) • [⚡ Inicio Rápido](#-inicio-rápido) • [📊 Características](#-características) • [👥 Equipo](#-equipo-de-desarrollo)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776ab?style=for-the-badge&logo=python&logoColor=white&labelColor=black)](https://python.org)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=black)](https://ultralytics.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=black)](https://streamlit.io)
+[![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white&labelColor=black)](https://opencv.org)
 
-</div>
+![AI Animation](https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif)
 
----
+**Sistema avanzado de IA para detección de instrumentos dentales en tiempo real**
 
-## 🎯 Demo
+[![Demo](https://img.shields.io/badge/🎬_Ver_Demo-Live-green?style=for-the-badge)](demo-link)
+[![Docs](https://img.shields.io/badge/📚_Documentación-Complete-blue?style=for-the-badge)](#)
+[![Download](https://img.shields.io/badge/⬇️_Descargar-Latest-red?style=for-the-badge)](releases)
 
-<div align="center">
-
-### 📹 **Detección en Tiempo Real**
-*Sistema fluido como videollamada profesional*
-
-### 📈 **Dashboard Interactivo** 
-*Análisis estadístico en vivo con múltiples visualizaciones*
-
-### 📄 **Reportes PDF Automáticos**
-*Generación profesional con gráficas y métricas*
+[🚀 Inicio Rápido](#-inicio-rápido) • [📈 Métricas](#-métricas-de-rendimiento) • [✨ Características](#-características-principales) • [👥 Equipo](#-equipo-de-desarrollo)
 
 </div>
 
@@ -38,225 +29,465 @@
 
 ## 🌟 ¿Qué es MedSeen?
 
-**MedSeen** es un sistema revolucionario de **Inteligencia Artificial** que detecta y clasifica instrumentos dentales en tiempo real utilizando la cámara web. Desarrollado con tecnologías de vanguardia como **YOLOv8**, **Computer Vision** y **Machine Learning**.
+<div align="center">
 
-### 🎯 **Objetivo**
-Facilitar la identificación rápida y precisa de instrumentos dentales en consultorios, clínicas y centros educativos, mejorando la eficiencia y organización del equipo médico.
+![What is MedSeen](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
-### ✨ **¿Por qué MedSeen?**
-- 🚀 **Detección instantánea** - Reconocimiento en menos de 0.5 segundos
-- 🎯 **Alta precisión** - Confianza promedio del 85%+ 
-- 📱 **Fácil de usar** - Interfaz web intuitiva sin instalaciones complejas
-- 📊 **Análisis completo** - Dashboard con múltiples visualizaciones
-- 📄 **Reportes profesionales** - PDF automáticos con estadísticas detalladas
+</div>
 
----
-
-## ⚡ Inicio Rápido
-
-### 🔧 **Instalación Ultra-Rápida**
-
-```bash
-# 1️⃣ Clonar el repositorio
-git clone https://github.com/Vaquera26/MedSeen_IA
-cd medSeen
-
-# 2️⃣ Crear entorno virtual 
-python -m venv medSeen_env
-
-# 3️⃣ Activar entorno
-# Windows:
-medSeen_env\Scripts\activate
-# macOS/Linux:
-source medSeen_env/bin/activate
-
-# 4️⃣ Instalar dependencias
-pip install -r requirements.txt
-
-# 5️⃣ ¡Ejecutar la aplicación!
-streamlit run medSeen_dental_detector_app.py
-```
-
-### 🚀 **¡Listo en 3 minutos!**
-
-1. **Abre tu navegador** en `http://localhost:8501`
-2. **Configura** el nivel de confianza (recomendado: 0.5)
-3. **Presiona "INICIAR DETECCIÓN"**
-4. **¡Apunta la cámara** a instrumentos dentales y observa la magia! ✨
-
----
-
-## 📊 Características
+**MedSeen** es un sistema revolucionario de **Inteligencia Artificial** que detecta y clasifica instrumentos dentales en tiempo real utilizando la cámara web. 
 
 <div align="center">
 
-| 🎯 **Detección** | 📈 **Análisis** | 🔧 **Tecnología** |
-|:---:|:---:|:---:|
-| ✅ Tiempo real | ✅ 6 tipos de gráficas | ✅ YOLOv8 |
-| ✅ Alta precisión | ✅ Estadísticas en vivo | ✅ OpenCV |
-| ✅ Múltiples instrumentos | ✅ Dashboard interactivo | ✅ Streamlit |
-| ✅ Confirmación inteligente | ✅ Reportes PDF | ✅ Plotly |
+### 🎯 **Capacidades del Sistema**
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" width="80"/>
+<h4>🎯 Detección</h4>
+<p>✅ Tiempo real<br>
+✅ Alta precisión<br>
+✅ 5 instrumentos<br>
+✅ Auto-confirmación</p>
+</td>
+<td align="center" width="33%">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="80"/>
+<h4>📊 Análisis</h4>
+<p>✅ 6 tipos de gráficas<br>
+✅ Estadísticas en vivo<br>
+✅ Dashboard interactivo<br>
+✅ Análisis temporal</p>
+</td>
+<td align="center" width="33%">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" width="80"/>
+<h4>🛠️ Tecnología</h4>
+<p>✅ YOLOv8<br>
+✅ OpenCV<br>
+✅ Streamlit<br>
+✅ Python</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📈 Métricas de Rendimiento
+
+<div align="center">
+
+![Performance Metrics](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)
+
+### 🏆 **Resultados Reales del Modelo**
+
+<img src="https://progress-bar.dev/96/?title=Precisión&width=300&color=00ff00" />
+<img src="https://progress-bar.dev/94/?title=Recall&width=300&color=00ccff" />
+<img src="https://progress-bar.dev/95/?title=F1-Score&width=300&color=ff6600" />
+<img src="https://progress-bar.dev/96/?title=mAP@0.5&width=300&color=9900ff" />
+<img src="https://progress-bar.dev/89/?title=mAP@0.5:0.95&width=300&color=ff0066" />
+
+</div>
+
+### 📊 Rendimiento por Clase de Instrumento
+
+<div align="center">
+
+| 🔧 Instrumento | 📊 mAP@0.5 | 🎯 Precisión | 📈 Estado | 🏅 Ranking |
+|:-------------:|:---------:|:----------:|:--------:|:--------:|
+| **🪥 Separador** | ![99.5%](https://img.shields.io/badge/99.5%25-success?style=for-the-badge) | ![100%](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge) | 🥇 **Perfecto** | ![#1](https://img.shields.io/badge/%231-gold?style=for-the-badge) |
+| **⚡ Botador** | ![99.2%](https://img.shields.io/badge/99.2%25-success?style=for-the-badge) | ![100%](https://img.shields.io/badge/100%25-brightgreen?style=for-the-badge) | 🥇 **Perfecto** | ![#2](https://img.shields.io/badge/%232-silver?style=for-the-badge) |
+| **🔪 Gubia** | ![96.9%](https://img.shields.io/badge/96.9%25-success?style=for-the-badge) | ![94%](https://img.shields.io/badge/94%25-green?style=for-the-badge) | 🥈 **Excelente** | ![#3](https://img.shields.io/badge/%233-orange?style=for-the-badge) |
+| **📐 Elevador** | ![97.5%](https://img.shields.io/badge/97.5%25-success?style=for-the-badge) | ![94%](https://img.shields.io/badge/94%25-green?style=for-the-badge) | 🥈 **Excelente** | ![#4](https://img.shields.io/badge/%234-blue?style=for-the-badge) |
+| **🔧 Fórceps** | ![86.3%](https://img.shields.io/badge/86.3%25-yellow?style=for-the-badge) | ![83%](https://img.shields.io/badge/83%25-yellow?style=for-the-badge) | 🥉 **Bueno** | ![#5](https://img.shields.io/badge/%235-red?style=for-the-badge) |
+
+</div>
+
+---
+
+## ✨ Características Principales
+
+<div align="center">
+
+![Features GIF](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
 
 </div>
 
 ### 🎯 **Sistema de Detección Avanzado**
 
-- **🎥 Video fluido** - Transmisión estable sin lag como videollamada profesional
-- **⚡ Detección instantánea** - Reconocimiento en tiempo real con YOLOv8
-- **🎯 Confirmación inteligente** - Sistema de frames consecutivos para evitar falsas detecciones
-- **🔄 Auto-recuperación** - Manejo robusto de errores de cámara con reinicio automático
+<div align="center">
 
-### 📊 **Dashboard Interactivo Multi-Gráfico**
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" width="60"/>
+<h4>⚡ Detección Instantánea</h4>
+<p>Reconocimiento en tiempo real con YOLOv8</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" width="60"/>
+<h4>🎥 Video Fluido</h4>
+<p>Transmisión estable sin lag</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" width="60"/>
+<h4>🔍 Confirmación Inteligente</h4>
+<p>Sistema de frames consecutivos</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" width="60"/>
+<h4>🔄 Auto-recuperación</h4>
+<p>Manejo robusto de errores</p>
+</td>
+</tr>
+</table>
 
-- **📊 Gráficas de Barras** - Conteo por tipo de instrumento
-- **🥧 Gráficas de Pie** - Distribución porcentual
-- **📈 Gráficas de Área** - Detecciones acumuladas en el tiempo  
-- **🔥 Mapas de Calor** - Análisis temporal por instrumento
-- **🎯 Gráficas Radar** - Distribución radial multi-métrica
-- **📊 Histogramas** - Análisis de niveles de confianza
+</div>
+
+### 📊 **Dashboard Interactivo**
+
+<div align="center">
+
+![Dashboard Demo](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+
+**6 Tipos de Visualizaciones Diferentes**
+
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920349.png" width="50"/> **Gráficas de Barras** | <img src="https://cdn-icons-png.flaticon.com/512/2920/2920249.png" width="50"/> **Gráficas Circulares** | <img src="https://cdn-icons-png.flaticon.com/512/2920/2920299.png" width="50"/> **Gráficas de Área**
+
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920474.png" width="50"/> **Mapas de Calor** | <img src="https://cdn-icons-png.flaticon.com/512/2920/2920324.png" width="50"/> **Gráficas Radar** | <img src="https://cdn-icons-png.flaticon.com/512/2920/2920399.png" width="50"/> **Histogramas**
+
+</div>
 
 ### 📄 **Reportes PDF Profesionales**
 
-- **📋 Información de sesión** - Duración, fecha, estadísticas generales
-- **📊 Tablas estadísticas** - Conteos y porcentajes por instrumento  
-- **📈 Gráficas integradas** - 4 tipos de análisis visual incluidos
-- **⏰ Log cronológico** - Registro detallado de todas las detecciones
-- **🎨 Diseño corporativo** - Colores y estilo profesional MedSeen
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="100"/>
+
+**Generación Automática de Reportes**
+
+![PDF Features](https://img.shields.io/badge/📋_Información_de_sesión-blue?style=for-the-badge)
+![PDF Features](https://img.shields.io/badge/📊_Tablas_estadísticas-green?style=for-the-badge)
+![PDF Features](https://img.shields.io/badge/📈_Gráficas_integradas-orange?style=for-the-badge)
+![PDF Features](https://img.shields.io/badge/⏰_Log_cronológico-purple?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🔬 Proceso de Desarrollo
+## 🚀 Inicio Rápido
 
-### 📸 **1. Recolección de Datos**
-- **500+ imágenes** de instrumentos dentales reales
-- **Múltiples ángulos** y condiciones de iluminación
-- **Calidad profesional** optimizada para entrenamiento
+<div align="center">
 
-### 🏷️ **2. Anotación con Roboflow**
-- **Etiquetado manual** de bounding boxes precision
-- **Clasificación detallada** por tipos de instrumentos
-- **Control de calidad** riguroso en todas las anotaciones
+![Quick Start](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
-### 🔄 **3. Preprocesamiento Avanzado**
-- **Data Augmentation** - Rotación, escala, brillo automático
-- **Normalización** de tamaños y formatos
-- **Balanceo de clases** para entrenamiento equitativo
+### ⚡ **¡Listo en 5 minutos!**
 
-### 🧠 **4. Entrenamiento YOLO**
-- **YOLOv8 pre-entrenado** como base
-- **Transfer Learning** para optimización específica
-- **100 épocas** con hardware GPU RTX 3050
+</div>
 
-### 🧪 **5. Validación Rigurosa**
-- **Datos de validación** separados del entrenamiento
-- **Métricas completas** - Precision, Recall, F1-Score, mAP
-- **Pruebas en tiempo real** con cámara web
+### 🔧 **Instalación Super Rápida**
 
-### 🚀 **6. Implementación Web**
-- **Interfaz Streamlit** responsive y profesional
-- **Dashboard interactivo** con visualizaciones múltiples
-- **Sistema de reportes** PDF automático
+```bash
+# 🎯 Paso 1: Clonar el repositorio
+git clone https://github.com/Vaquera26/MedSeen_IA
+cd MedSeen_IA
 
----
+# 🐍 Paso 2: Crear entorno virtual
+python -m venv medSeen_env
 
-## 🛠️ Arquitectura Técnica
+# ⚡ Paso 3: Activar entorno
+# Windows:
+medSeen_env\Scripts\activate
+# macOS/Linux:
+source medSeen_env/bin/activate
 
-```mermaid
-graph TB
-    A[📹 Cámara Web] --> B[🎯 Captura de Frame]
-    B --> C[🧠 Modelo YOLO v8]
-    C --> D[✅ Sistema de Confirmación]
-    D --> E[📊 Actualización de Estadísticas]
-    E --> F[📈 Dashboard en Tiempo Real]
-    F --> G[📄 Generación de PDF]
-    
-    subgraph "🔧 Componentes Principales"
-        H[MedSeenDentalDetector]
-        I[PDFGenerator]
-        J[Dashboard Functions]
-    end
+# 📦 Paso 4: Instalar dependencias
+pip install -r requirements.txt
+
+# 🚀 Paso 5: ¡Ejecutar la aplicación!
+streamlit run medSeen_dental_detector_app.py
 ```
 
-### 🏗️ **Componentes del Sistema**
+<div align="center">
 
-#### **🎯 MedSeenDentalDetector**
-- **Gestión del modelo YOLO** - Carga y configuración
-- **Control de cámara** - Captura optimizada con buffer mínimo
-- **Lógica de confirmación** - Frames consecutivos para precisión
-- **Estadísticas en tiempo real** - Contadores y métricas
+### 🎮 **Cómo Usar MedSeen**
 
-#### **📄 PDFGenerator** 
-- **Reportes profesionales** - Layout corporativo con ReportLab
-- **Tablas dinámicas** - Estadísticas formateadas automáticamente
-- **Gráficas integradas** - Matplotlib para análisis visual
-- **Branding corporativo** - Colores y diseño MedSeen
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" width="60"/>
+<h4>1️⃣ Abrir Navegador</h4>
+<p><code>localhost:8501</code></p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888888.png" width="60"/>
+<h4>2️⃣ Configurar</h4>
+<p>Nivel de confianza: 0.5</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" width="60"/>
+<h4>3️⃣ Iniciar</h4>
+<p>Presionar "DETECTAR"</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" width="60"/>
+<h4>4️⃣ Apuntar Cámara</h4>
+<p>A instrumentos dentales</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="60"/>
+<h4>5️⃣ Observar</h4>
+<p>Métricas en tiempo real</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="60"/>
+<h4>6️⃣ Generar PDF</h4>
+<p>Reportes automáticos</p>
+</td>
+</tr>
+</table>
 
-#### **📊 Funciones de Visualización**
-- **Plotly interactivo** - 6 tipos de gráficas diferentes
-- **Colores corporativos** - Paleta consistente en toda la app
-- **Responsive design** - Adaptable a diferentes tamaños de pantalla
+</div>
+
+---
+
+## 🎯 Instrumentos Detectados
+
+<div align="center">
+
+![Dental Tools](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
+
+### 🦷 **Los 5 Instrumentos Esenciales**
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" width="80"/>
+<h4>🔧 Fórceps</h4>
+<p><strong>Pinzas de extracción</strong></p>
+<p>Sujetar y extraer dientes</p>
+<img src="https://img.shields.io/badge/Precisión-83%25-yellow?style=for-the-badge"/>
+</td>
+<td align="center" width="20%">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913422.png" width="80"/>
+<h4>⚡ Botador</h4>
+<p><strong>Elevador recto</strong></p>
+<p>Luxar piezas dentales</p>
+<img src="https://img.shields.io/badge/Precisión-100%25-brightgreen?style=for-the-badge"/>
+</td>
+<td align="center" width="20%">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913534.png" width="80"/>
+<h4>🔄 Separador</h4>
+<p><strong>Separador dental</strong></p>
+<p>Mejorar visibilidad</p>
+<img src="https://img.shields.io/badge/Precisión-100%25-brightgreen?style=for-the-badge"/>
+</td>
+<td align="center" width="20%">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913488.png" width="80"/>
+<h4>📐 Elevador</h4>
+<p><strong>Periostótomo</strong></p>
+<p>Desprender tejido blando</p>
+<img src="https://img.shields.io/badge/Precisión-94%25-green?style=for-the-badge"/>
+</td>
+<td align="center" width="20%">
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913399.png" width="80"/>
+<h4>✂️ Gubia</h4>
+<p><strong>Instrumento cortante</strong></p>
+<p>Remover hueso alveolar</p>
+<img src="https://img.shields.io/badge/Precisión-94%25-green?style=for-the-badge"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🏗️ Arquitectura Técnica
+
+<div align="center">
+
+![Architecture](https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif)
+
+### 🔄 **Flujo del Sistema**
+
+```mermaid
+graph LR
+    A[📹 Cámara Web] -->|Captura| B[🎯 Frame]
+    B -->|Procesa| C[🧠 YOLOv8]
+    C -->|Detecta| D[✅ Confirmación]
+    D -->|Actualiza| E[📊 Dashboard]
+    E -->|Genera| F[📄 PDF]
+```
+
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888888.png" width="50"/>
+<h4>🧠 Deep Learning</h4>
+<p>YOLOv8 • PyTorch</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" width="50"/>
+<h4>👁️ Computer Vision</h4>
+<p>OpenCV • NumPy</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" width="50"/>
+<h4>🌐 Web Interface</h4>
+<p>Streamlit</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="50"/>
+<h4>📊 Visualization</h4>
+<p>Plotly • Matplotlib</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="50"/>
+<h4>📄 Reports</h4>
+<p>ReportLab</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888883.png" width="50"/>
+<h4>🗂️ Data Management</h4>
+<p>Pandas • Roboflow</p>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 ## 📁 Estructura del Proyecto
 
+<div align="center">
+
+![Project Structure](https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif)
+
+</div>
+
 ```
-medSeen/
+🦷 MedSeen_IA/
 ├── 📄 medSeen_dental_detector_app.py    # 🚀 Aplicación principal
 ├── 📄 train_dental_instruments_yolo.py   # 🧠 Entrenamiento del modelo
-├── 📄 validate_dental_instruments_yolo.py # ✅ Validación del modelo  
+├── 📄 validate_dental_instruments_yolo.py # ✅ Validación del modelo
 ├── 📄 predict_dental_instruments_yolo.py  # 🎯 Predicción individual
-├── 📋 requirements.txt                    # 📦 Dependencias
-├── 📖 README.md                          # 📚 Este archivo
+├── 📋 requirements.txt                    # 📦 Dependencias del proyecto
+├── 📖 README.md                          # 📚 Esta documentación
 ├── 🖼️ img/
 │   └── logo.png                          # 🎨 Logo de MedSeen
-├── 🗂️ datasets/
+├── 🗂️ datasets/                         # 📊 Conjunto de datos
 │   ├── data.yaml                         # ⚙️ Configuración del dataset
 │   ├── train/                           # 🏋️ Datos de entrenamiento
 │   ├── val/                             # ✅ Datos de validación
 │   └── test/                            # 🧪 Datos de prueba
-└── 🤖 runs/detect/
-    └── instrumentos_dentales_yolo_model5/
-        └── weights/
-            └── best.pt                   # 🏆 Modelo entrenado
+└── 🤖 runs/detect/best.pt               # 🏆 Modelo entrenado final
 ```
 
 ---
 
-## 🚀 Guía de Uso Detallada
+## 🔬 Proceso de Desarrollo
 
-### 🎮 **Controles de la Aplicación**
+<div align="center">
 
-1. **⚙️ Configuración Inicial**
-   ```
-   • Nivel de Confianza: 0.1 - 1.0 (recomendado: 0.5)
-   • Frames para Confirmar: 1 - 10 (recomendado: 3)
-   ```
+![Development Process](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
-2. **🎯 Iniciar Detección**
-   ```
-   • Presiona "INICIAR DETECCIÓN"
-   • El sistema carga el modelo YOLO
-   • Se activa la cámara automáticamente
-   • Comienza la detección en tiempo real
-   ```
+### 📊 **Del Dataset al Modelo Funcional**
 
-3. **📊 Monitoreo en Vivo** 
-   ```
-   • Video con detecciones anotadas
-   • Métricas en tiempo real (Total, Únicos, Confianza)
-   • Dashboard con 6 tipos de gráficas
-   • Log de actividad cronológico
-   ```
+</div>
 
-4. **📄 Generar Reporte**
-   ```
-   • Presiona "FINALIZAR SESIÓN"
-   • Se genera PDF automáticamente
-   • Descarga con un click
-   • Incluye todas las estadísticas y gráficas
-   ```
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" width="80"/>
+<h3>📊 Dataset</h3>
+<p><strong>781 imágenes</strong><br>
+5 clases balanceadas<br>
+Anotación manual<br>
+Data augmentation</p>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888888.png" width="80"/>
+<h3>🧠 Entrenamiento</h3>
+<p><strong>YOLOv8</strong><br>
+Transfer learning<br>
+100 épocas<br>
+GPU RTX 3050</p>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" width="80"/>
+<h3>✅ Validación</h3>
+<p><strong>70/20/10 split</strong><br>
+Múltiples métricas<br>
+Matriz de confusión<br>
+Curvas P-R</p>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" width="80"/>
+<h3>🚀 Deployment</h3>
+<p><strong>Streamlit App</strong><br>
+Tiempo real<br>
+Dashboard interactivo<br>
+Reportes PDF</p>
+</td>
+</tr>
+</table>
 
+---
+
+## 💻 Especificaciones del Sistema
+
+<div align="center">
+
+![System Requirements](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+
+### 📋 **Requisitos del Sistema**
+
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888883.png" width="60"/>
+<h4>💾 Memoria RAM</h4>
+<p>Mínimo: 4GB<br>
+<strong>Recomendado: 8GB</strong></p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" width="60"/>
+<h4>🖥️ Sistema Operativo</h4>
+<p>Windows 10+<br>
+macOS 10.15+<br>
+Ubuntu 18.04+</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" width="60"/>
+<h4>📹 Cámara Web</h4>
+<p>Mínimo: 640×480<br>
+<strong>Recomendado: 1080p</strong></p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888888.png" width="60"/>
+<h4>🐍 Python</h4>
+<p>Versión 3.8+<br>
+<strong>Recomendado: 3.10</strong></p>
+</td>
+</tr>
+</table>
+
+### ⚡ **Rendimiento en Tiempo Real**
+
+<img src="https://progress-bar.dev/95/?title=Velocidad%20de%20Inferencia:%209.5%20FPS&width=400&color=00ff00" />
+<img src="https://progress-bar.dev/89/?title=Latencia:%20106ms%20por%20frame&width=400&color=00ccff" />
+<img src="https://progress-bar.dev/96/?title=Precisión%20en%20tiempo%20real:%2096%25&width=400&color=ff6600" />
+
+</div>
 
 ---
 
@@ -264,66 +495,108 @@ medSeen/
 
 <div align="center">
 
-### 🌟 **Los Arquitectos de MedSeen**
+![Team](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
 
-</div>
+### 🎓 **Instituto Tecnológico de La Laguna**
+*Noveno Semestre - Inteligencia Artificial*
 
-<table align="center">
+<table>
 <tr>
-<td align="center" width="33%">
-<img src="https://github.com/identicons/jfvaquera.png" width="100px;" alt="Juan Fernando"/><br />
-<sub><b>👨‍💻 Juan Fernando Vaquera Sanchez</b></sub><br />
-<sub>🎓 <strong>21130869</strong></sub><br />
+<td align="center">
+<img src="https://github.com/identicons/jfvaquera.png" width="150" height="150" style="border-radius: 50%;"/>
+<h3>👨‍💻 Juan Fernando<br>Vaquera Sánchez</h3>
+<p><strong>21130869</strong></p>
+<p><img src="https://img.shields.io/badge/Lead_Developer-blue?style=for-the-badge&logo=github"/></p>
 </td>
-
-<td align="center" width="33%">
-<img src="https://github.com/identicons/miriam.png" width="100px;" alt="Miriam"/><br />
-<sub><b>👩‍💻 Miriam Alicia Sanchez Cervantes</b></sub><br />
+<td align="center">
+<img src="https://github.com/identicons/miriam.png" width="150" height="150" style="border-radius: 50%;"/>
+<h3>👩‍🔬 Miriam Alicia<br>Sánchez Cervantes</h3>
+<p><strong>21130882</strong></p>
+<p><img src="https://img.shields.io/badge/AI_Researcher-green?style=for-the-badge&logo=python"/></p>
 </td>
-
-<td align="center" width="33%">
-<img src="https://github.com/identicons/diego.png" width="100px;" alt="Diego"/><br />
-<sub><b>👨‍🔬 Diego Muñoz Rede</b></sub><br />
-<sub>🎓 <strong>21130893</strong></sub><br />
+<td align="center">
+<img src="https://github.com/identicons/diego.png" width="150" height="150" style="border-radius: 50%;"/>
+<h3>👨‍🔬 Diego<br>Muñoz Rede</h3>
+<p><strong>21130893</strong></p>
+<p><img src="https://img.shields.io/badge/Data_Scientist-orange?style=for-the-badge&logo=tensorflow"/></p>
 </td>
 </tr>
 </table>
 
----
-
-## 🎓 Proyecto Académico
-
-<div align="center">
-
-**🏫 Universidad/Institución**: *INSTITUTO TECNOLOGICO DE LA LAGUNA*  
-**📚 Materia**: *Inteligencia Artificial*  
-**📅 Semestre**: *Noveno Semestre*  
-
-### 🏆 **Logros del Proyecto**
-
-- ✅ **Modelo funcional** con 85%+ de precisión
-- ✅ **Aplicación web completa** con interfaz profesional  
-- ✅ **Sistema en tiempo real** sin lag perceptible
-- ✅ **Dashboard interactivo** con 6 tipos de gráficas
-- ✅ **Reportes PDF automáticos** con análisis detallado
-- ✅ **Documentación completa** con README épico 😎
+**👨‍🏫 Docente**: Ing. Gibran López  
+**📅 Fecha**: Mayo 2025  
+**📍 Ubicación**: Torreón, Coahuila, México
 
 </div>
 
 ---
 
+## 🏆 Logros del Proyecto
 
 <div align="center">
 
-## 🌟 ¡Dale una estrella si te gustó el proyecto! ⭐
+![Achievements](https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif)
 
-**Hecho con ❤️ por el equipo MedSeen**
+<table>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" width="60"/>
+<h4>🎯 Modelo Funcional</h4>
+<p>96% de precisión</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" width="60"/>
+<h4>🌐 App Web Completa</h4>
+<p>Interfaz profesional</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" width="60"/>
+<h4>⚡ Tiempo Real</h4>
+<p>Sistema fluido</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" width="60"/>
+<h4>📊 Dashboard</h4>
+<p>6 tipos de gráficas</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" width="60"/>
+<h4>📄 Reportes PDF</h4>
+<p>Análisis detallado</p>
+</td>
+<td align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888883.png" width="60"/>
+<h4>📚 Documentación</h4>
+<p>Completa y técnica</p>
+</td>
+</tr>
+</table>
 
-*Si este README te ayudó, considera darle una ⭐ al repositorio*
+</div>
 
 ---
 
+## 📚 Referencias Técnicas
 
-**🚀 Hecho con amor, café y mucha IA 🤖**
+<div align="center">
+
+![References](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif)
+
+**Investigación Científica Actualizada**
 
 </div>
+
+- 📄 [Surgical Instrument Detection Algorithm Based on Improved YOLOv7x (MDPI, 2023)](https://www.mdpi.com/1424-8220/23/11/5037)
+- 🧪 [AI model for automated surgical instrument detection (Nature, 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11265075/)
+- 📖 [YOLOv8 Documentation (Ultralytics)](https://docs.ultralytics.com/)
+- 🎓 [Computer Vision for Medical Applications (IEEE)](https://ieeexplore.ieee.org/)
+
+---
+
+## 📄 Licencia
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/888/
