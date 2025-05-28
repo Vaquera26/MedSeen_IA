@@ -106,7 +106,17 @@ streamlit run medSeen_dental_detector_app.py
 | ✅ Confirmación inteligente   | ✅ Reportes PDF automáticos   | ✅ Plotly         |
 
 </div>
+### 📊 Rendimiento por Clase
 
+| Instrumento | mAP@0.5 | Precisión | Estado |
+|-------------|---------|-----------|--------|
+| **Separador** | 99.5% | 100% | 🥇 Perfecto |
+| **Botador** | 99.2% | 100% | 🥇 Perfecto |
+| **Gubia** | 96.9% | 94% | 🥈 Excelente |
+| **Elevador** | 97.5% | 94% | 🥈 Excelente |
+| **Fórceps** | 86.3% | 83% | 🥉 Bueno |
+
+---
 ### 🎯 Sistema de Detección Avanzado
 
 - **🎥 Video fluido** – Transmisión estable sin lag perceptible  
